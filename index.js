@@ -20,6 +20,7 @@ mongoose
   });
 
 app.use("/api/enquiries", require("./routes/enquiryRoutes"));
+app.use("/api/auth", require("./routes/authRoutes"));
 
 const PORT = process.env.PORT || 5000;
 
